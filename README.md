@@ -5,6 +5,22 @@ A little test app for viewing our favorite Pokemon!
 
 -------
 
+## Instructions:
+
+- Fork this repo
+- Using the Pokémon API located at https://pokeapi.co/ create a simple app that:
+
+1. Lists 12 pokemon on the homepage (the method and specific pokemon that are pulled in are up to you)
+2. When you click on the Pokemon, take the user to a detail page for that Pokemon and display some of the high-level stats provided by the API
+3. When you are done, submit a PR and in the PR description briefly describe your coding choices and methodology used for the app.
+
+You may bring in any additional libraries that you like.
+
+Design is 100% up to you
+
+Please spend no more than a couple of hours on this task.
+
+----------
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
