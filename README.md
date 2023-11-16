@@ -18,8 +18,6 @@ You may bring in any additional libraries that you like.
 
 Design is 100% up to you
 
-Please spend no more than a couple of hours on this task.
-
 ----------
 
 
