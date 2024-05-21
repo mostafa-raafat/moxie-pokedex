@@ -12,11 +12,11 @@ A little test app for viewing our favorite Pokemon!
 
 1. Lists 12 pokemon on the homepage (the method and specific pokemon that are pulled in are up to you)
 2. When you click on the Pokemon, take the user to a detail page for that Pokemon and display some of the high-level stats provided by the API
-3. When you are done, submit a PR and in the PR description briefly describe your coding choices and methodology used for the app.
+3. When you are done, post your repo to GitHub and send the link to bgibilaro@moxielabs.co. In your email briefly describe your coding choices and methodology used for the app.
 
 You may bring in any additional libraries that you like.
 
-Design is 100% up to you
+Design is 100% up to you and feel free to be creative. Make it your own!
 
 ----------
 
