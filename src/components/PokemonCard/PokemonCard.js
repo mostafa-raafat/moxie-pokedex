@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 // Components
-import TypeLabel from "@component/TypeLabel/TypeLabel";
+import TypeLabel from "@components/TypeLabel/TypeLabel";
 
 const PokemonCard = ({ pokemon }) => {
   const { id, name, sprites, types } = pokemon;
