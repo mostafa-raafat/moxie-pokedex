@@ -5,23 +5,93 @@ A little test app for viewing our favorite Pokemon!
 
 -------
 
-## Instructions:
+## Description of the Changes
 
-- Fork this repo
-- Using the Pokémon API located at https://pokeapi.co/ create a simple app that:
+### Pokémon Detail Page
+- Fetched detailed data of a specific Pokémon using the PokéAPI.
+- Displayed high-resolution images, name, type, height, weight, base experience, and abilities.
+- Used `react-chartjs-2` to visualize base stats.
+- Added navigation in the header title to return to the Pokémon list page.
 
-1. Lists 12 pokemon on the homepage (the method and specific pokemon that are pulled in are up to you)
-2. When you click on the Pokemon, take the user to a detail page for that Pokemon and display some of the high-level stats provided by the API
-3. When you are done, post your repo to GitHub and send the link to bgibilaro@moxielabs.co. In your email briefly describe your coding choices and methodology used for the app.
+### Pokémon List Page
+- Fetched and displayed a list of Pokémon from the PokéAPI, limiting the display to 12 Pokémon at a time.
+- Each Pokémon card links to its detail page for further information.
 
-You may bring in any additional libraries that you like.
+## Methodology and Coding Choices
 
-Design is 100% up to you and feel free to be creative. Make it your own!
+### React Query
+- Used for fetching and caching Pokémon data to optimize performance and ensure a smooth user experience.
+
+### React Router
+- Utilized for handling navigation between the Pokémon list and detail pages.
+- Made use of dynamic routing with `useParams` to fetch specific Pokémon details.
+
+### Component Structure
+- Created reusable components for better maintainability and modularity.
+- Organized components under a structured folder hierarchy to enhance code readability and maintainability.
+
+### Tailwind CSS
+- Applied Tailwind CSS for styling to create a modern, responsive, and consistent UI.
+- Configured Tailwind through CRACO for easier alias setup and management.
+
+### Testing
+- Ensured 100% test coverage for all pages and components using Jest and React Testing Library.
+- Created test cases for API interactions, component rendering, and user interactions.
+
+### Responsive Design
+- Designed the application to be fully responsive, ensuring compatibility across various devices and screen sizes.
+
+### Error Handling
+- Implemented basic error handling for API requests using try-catch blocks and conditional rendering.
+
+## Additional Features
+- Integrated `react-chartjs-2` to display Pokémon base stats visually.
+- Configured aliases using CRACO to simplify import paths and improve code readability.
+
+## Project Structure
+```
+moxie-pokedex/
+├── src/
+│ ├── api/
+│ |   └── pokemonApi*/
+| |
+│ ├── pages/
+│ |   └── home*/
+│ |   └── pokemon*/
+| |
+│ ├── components*/
+| |   └── common*/
+| |       └── Header*/
+| |       └── LoadingSpinner*/
+│ │   └── BaseStats/*
+│ │   └── InformationPokemon/*
+│ │   └── NotFound/*
+│ │   └── PokemonCard/*
+│ │   └── TypeLabel/*
+| |
+│ ├── mocks/
+│ |   └── index.js
+| |
+│ ├── utils/
+│ |   └── const.js
+│ |
+│ ├── App.js
+│ ├── index.js
+│ └── ...
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
+├── tailwind.config.js*
+├── craco.config.js*
+└── ...
+```
+
+## Deployment
+You can access the deployed Pokémon app [Demo](https://moxie-pokedex-eight.vercel.app/).
 
 ----------
-
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
