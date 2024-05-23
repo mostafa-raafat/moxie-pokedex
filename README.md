@@ -37,6 +37,8 @@ A little test app for viewing our favorite Pokemon!
 ### Testing
 - Ensured 100% test coverage for all pages and components using Jest and React Testing Library.
 - Created test cases for API interactions, component rendering, and user interactions.
+<img width="1033" alt="Screenshot 2024-05-23 at 00 36 49" src="https://github.com/mostafa-raafat/moxie-pokedex/assets/43439787/f40a7a6e-f5a5-4ef9-bd10-ceb5d10683b0">
+
 
 ### Responsive Design
 - Designed the application to be fully responsive, ensuring compatibility across various devices and screen sizes.
